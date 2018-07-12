@@ -1,0 +1,9 @@
+Imperium Pseudocode
+
+Variables
+	gameRunning, boolean, is the game running.
+   gameMenu, GameMenu, main menu panel 
+   
+Sub Main
+   call Initialize
+   show gameMenu

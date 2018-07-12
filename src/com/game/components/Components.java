@@ -1,6 +1,9 @@
 package com.game.components;
+
+import com.game.types.ComponentType;
+
 public class Components {
-   Type type = Type.None;  //What type of component is this.
+   ComponentType type = ComponentType.None;  //What type of component is this.
    int size = 0;           //Size of the component, as follows:
                            //Power units: How much power is being generated.
                            //Shields: How much laser damage that can be absorbed.
